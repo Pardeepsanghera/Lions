@@ -1,0 +1,147 @@
+/* Global styles */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    background-color: grey;
+}
+a {
+    text-decoration: none;
+}
+a:hover{
+    color: #4d4d4d
+}
+a:visited {
+    color:#fff;
+}
+.navbar {
+    height: 100px;
+    width: 100%;
+    background-color:gray;
+    position: Fixed;
+}
+.navbar-logo {
+    height: 100px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.navbar-nav {
+  float: right;
+}
+.nav-item {
+    float:left;
+    padding: 10px;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 600px;
+    background: black;
+    border: 5px solid gray;
+    border-radius: 20px;
+}
+.nav-item:hover {
+    border: dotted white;
+}
+.nav-item a:hover {
+    color: #4d4d4d
+}
+
+.hero-img {
+    width: 100%;
+    background-image:url("./img/323825_lion-background.jpg");
+    height: 900px;
+    background-size:contain;
+    background-repeat: no-repeat;
+  
+}
+.hero-back {
+    background-color: gray;
+}
+.hero-header {
+    position: relative;
+    left: 900px;
+    top:400px;
+    display: inline;
+}
+.home-content {
+    height: 400px;
+    width: 100%;
+    background-color: white;
+}
+.content-img {
+    height: 200px;
+    width: 400px;
+    background-image: url(./img/unnamed.jpg) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative; 
+    float: left;
+    top: 100px;
+    left: 76px;
+}
+.content-para {
+    height: 200px;
+    width: 200px;
+    background-color:white;
+    position: relative;
+    float: left;
+    top: 0px;
+    left: 300px;
+    display: inline;
+    border-radius: 85px;
+    padding: 80px;
+    
+}
+.contact-colum {
+    width: 50%;
+    float: left;
+}
+/* about styles */
+.about-container {
+    height: 700px;
+    width: 100%;
+    padding-top: 120px;
+    margin-bottom: 20px;
+}
+.about-colum {
+    width: 28%;
+    border: 2px solid #000;
+    float: left;
+    padding: 25px 20px;
+    margin-left: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+.about-img {
+    height: 300px;
+    width: 321px;
+    margin: auto;
+}
+.about-button {
+    box-shadow: 2px 2px black;
+}
+.about-audio {
+    margin-bottom: 250px;
+}
+
+.footer{
+    background-color: grey;
+    height: 100px;
+    width: 100%;
+    clear: left;
+    margin-top: 50px;
+    
+}
+.footer-item {
+    float: left;
+    margin-top: 0px;
+    margin-left: 100px;
+}
+.icon {
+    font-size: 30px;
+}
